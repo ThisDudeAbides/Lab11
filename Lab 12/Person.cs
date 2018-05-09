@@ -15,22 +15,22 @@ namespace Lab_12
         {
             get
             {
-                return Name;
+                return name;
             }
             set
             {
-                Name = value;
+                name = value;
             }
         }
         public string Address
         {
             get
             {
-                return Address;
+                return address;
             }
             set
             {
-                Address = value;
+                address = value;
             }
         }
         public Person()

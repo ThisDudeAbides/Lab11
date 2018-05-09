@@ -18,44 +18,48 @@ namespace Lab_12
         {
             get
             {
-                return Program;
+                return program;
             }
             set
             {
-                Program = value;
+                program = value;
             }
         }
         public int Year
         {
             get
             {
-                return Year;
+                return year;
             }
             set
             {
-                Year = value;
+                year = value;
             }
         }
         public double Fee
         {
             get
             {
-                return Fee;
+                return fee;
             }
             set
             {
-                Fee = value;
+                fee = value;
             }
+        }
+        public Student()
+        {
+
         }
         public Student(string p, int yr, double money, string n, string a):base(n,a)
         {
             Program = p;
             Year = yr;
             Fee = money;
-        }
+        } 
         public override string ToString()
         {
-            return $"{Name}{Address}{program}{Year}{Fee}";
+            return $"{Name} {Address} {program} {Year} {Fee}";
         }
     }
 }

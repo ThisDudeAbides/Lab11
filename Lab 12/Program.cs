@@ -10,7 +10,9 @@ namespace Lab_12
     {
         static void Main(string[] args)
         {
-           
+            Student s = new Student("english", 2000, 2322, "james", "1222 wayne rd");
+
+            Console.WriteLine(s);
 
         }
     }

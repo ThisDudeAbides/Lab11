@@ -16,22 +16,22 @@ namespace Lab_12
         {
             get
             {
-                return School;
+                return school;
             }
             set
             {
-                School = value;
+                school = value;
             }
         }
         public double Pay
         {
             get
             {
-                return Pay;
+                return pay;
             }
             set
             {
-                Pay = value;
+                pay = value;
             }
         }
 
